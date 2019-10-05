@@ -13,11 +13,11 @@ def reduce(source_array, starting_point = nil)
       outcome = sp
       i = 0
     else
-      outcome = s[0]
+      outcome = source_array[0]
       i = 1
     end
-    while i < s.length
-      outcome = yield(outcome, s[i])
+    while i < source_array.length
+      outcome = yield(outcome, source_array[i])
       i += 1
     end
     outcome
