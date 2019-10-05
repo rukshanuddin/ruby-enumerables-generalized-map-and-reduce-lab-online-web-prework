@@ -1,3 +1,3 @@
-def my_own_neg_map(source_array)
+def my_own_map(source_array)
   source_array.map { |e| e * -1 }
-end  
+end
