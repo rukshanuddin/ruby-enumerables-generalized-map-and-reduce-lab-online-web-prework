@@ -10,7 +10,7 @@ end
 
 def reduce(source_array, starting_point = nil)
     if starting_point
-      outcome = sp
+      outcome = starting_point
       i = 0
     else
       outcome = source_array[0]
